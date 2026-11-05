@@ -430,4 +430,4 @@ the real `updatePlayer` and `checkGameplay` from one checkpoint to the next.
 - **Jump physics:** `MOVE` in `js/physics.js:10`. Jump height is `jump² / (2·gravity)` = 2.25 units.
 - **Lighting:** sun color and ambient values are in `renderFrame()` (`js/game.js:452`), and
   per-section fog density is in `level.sections`.
-- **New texture:** add an entry to `TEX` (`js/textures.js:148`) and a material to `MAT` (`js/scene.js:81`).
+- **New texture:** add an entry to `TEX` (`js/textures.js:148`) and a material to `MAT` (`js/scene.js:81`)
